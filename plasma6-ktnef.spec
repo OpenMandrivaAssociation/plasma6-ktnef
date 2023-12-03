@@ -16,9 +16,10 @@ Group:		System/Base
 %endif
 Source0:	http://download.kde.org/%{ftpdir}/release-service/%{version}/src/ktnef-%{version}.tar.xz
 URL:		https://www.kde.org/
-BuildRequires:	pkgconfig(Qt6Core)
-BuildRequires:	pkgconfig(Qt6Gui)
-BuildRequires:	pkgconfig(Qt6Test)
+BuildRequires:	cmake(Qt6)
+BuildRequires:	cmake(Qt6Core)
+BuildRequires:	cmake(Qt6Gui)
+BuildRequires:	cmake(Qt6Test)
 BuildRequires:	cmake(ECM)
 BuildRequires:	cmake(KF6CalendarCore)
 BuildRequires:	cmake(KPim6CalendarUtils)
