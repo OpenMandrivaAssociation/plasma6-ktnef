@@ -19,6 +19,7 @@ URL:		https://www.kde.org/
 BuildRequires:	cmake(Qt6)
 BuildRequires:	cmake(Qt6Core)
 BuildRequires:	cmake(Qt6Gui)
+BuildRequires:	cmake(Qt6Widgets)
 BuildRequires:	cmake(Qt6Test)
 BuildRequires:	cmake(ECM)
 BuildRequires:	cmake(KF6CalendarCore)
