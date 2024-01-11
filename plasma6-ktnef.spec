@@ -4,7 +4,7 @@
 
 Summary:	KTNEF - an API for handling TNEF data
 Name:		plasma6-ktnef
-Version:	24.01.85
+Version:	24.01.90
 Release:	1
 License:	GPLv2+
 Group:		System/Base
@@ -82,8 +82,8 @@ based on %{name}.
 
 %install
 %ninja_install -C build
-%find_lang libktnef5
+%find_lang libktnef6
 
-%files -f libktnef5.lang
+%files -f libktnef6.lang
 %{_datadir}/qlogging-categories6/ktnef.categories
 %{_datadir}/qlogging-categories6/ktnef.renamecategories
