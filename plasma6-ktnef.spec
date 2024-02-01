@@ -4,7 +4,7 @@
 
 Summary:	KTNEF - an API for handling TNEF data
 Name:		plasma6-ktnef
-Version:	24.01.90
+Version:	24.01.95
 Release:	1
 License:	GPLv2+
 Group:		System/Base
