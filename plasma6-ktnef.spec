@@ -18,7 +18,7 @@ Group:		System/Base
 %define ftpdir stable
 %endif
 %if 0%{?git:1}
-Source0:	https://invent.kde.org/pim/ktnef/-/archive/%{gitbranch}/ktnef-%{gitbranchd}.tar.bz2#/ktnef-20240217.tar.bz2
+Source0:	https://invent.kde.org/pim/ktnef/-/archive/%{gitbranch}/ktnef-%{gitbranchd}.tar.bz2#/ktnef-%{git}.tar.bz2
 %else
 Source0:	http://download.kde.org/%{ftpdir}/release-service/%{version}/src/ktnef-%{version}.tar.xz
 %endif
